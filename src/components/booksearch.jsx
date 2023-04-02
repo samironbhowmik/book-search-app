@@ -20,7 +20,7 @@ function BookSearch() {
     <div>
       <div className="container">
         <div className="heading">
-          <h1>Search for you favourite book</h1>
+          <h1>Search for your favourite book</h1>
         </div>
         <div className="input">
           <input
@@ -52,7 +52,7 @@ function BookSearch() {
                   {book.volumeInfo.authors && (
                     <h5> Author: {book.volumeInfo.authors[0]}</h5>
                   )}
-                  
+
                   <h5>Page Count: {book.volumeInfo.pageCount}</h5>
                   <h5>Rating: {book.volumeInfo.ratingsCount}</h5>
                 </div>
